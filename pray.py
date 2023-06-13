@@ -57,7 +57,7 @@ async def start_(client: Client, message: Message):
                 
            ]
         ),
-    )
+
     
     
 @bot.on_message(filters.command(["/start", f"start@{BOT_USERNAME}", "/alive", ".alive", "#bikash", "#aditya"]) & filters.group & ~filters.edited)
